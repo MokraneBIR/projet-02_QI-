@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+main {
+    
+}
+header {
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+h1 {
+    margin: 10px 0 35px 0;
+}
+
+.container {
+    padding: 0 130px;
+}
+
+.container>.paragraphe {
+    font-size: 11px;   
+    line-height: 1.4;
+}
+
+.start {
+    padding-top: 20px;
+}
+
+.start>a {
+    color: chartreuse; 
+}
+.start>a:hover {
+    color: rgb(171, 253, 88); 
+}
+
+
+footer { 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
