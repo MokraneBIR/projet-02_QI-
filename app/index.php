@@ -1,7 +1,9 @@
-
-    <?php 
-    $title = 'Accueil';
+<?php 
+    session_start();
+    $title = 'TEST QI';
     require('shared/openHtml.php'); 
+
+    session_destroy();
     ?>
 
     <main>
