@@ -34,8 +34,35 @@ h1 {
 .container3 {
     padding: 0 50px;
 }
+.container-result {
+    text-align: center;
+    margin: 0 15px;
+    border-radius: 10px
+}
 
+.title-result {
+    padding-top: 20px;
+    font-size: 22px;
+    background-color: rgb(58, 58, 58);
+    height: 60px;
+    border : solid  rgb(160, 182, 175) 1.5px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
 
+.result {
+    background-color: rgb(160, 182, 175);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 0 20px 0;
+    border : solid  rgb(160, 182, 175) 1.5px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.result-text {
+    line-height: 1.5;
+}
 .container>.paragraphe {
     font-size: 11px;   
     line-height: 1.6;
@@ -49,7 +76,13 @@ h1 {
 .start>a {
     color: chartreuse; 
 }
+.result>a {
+    color: chartreuse; 
+}
 .start>a:hover {
+    color: rgb(171, 253, 88); 
+}
+.result>a:hover {
     color: rgb(171, 253, 88); 
 }
 
